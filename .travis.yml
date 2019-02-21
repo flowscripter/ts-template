@@ -39,3 +39,7 @@ jobs:
         skip-cleanup: true
         local-dir: "docs"
         github-token: $GH_TOKEN
+cache:
+  npm: true
+  directories:
+    - /home/travis/.sonar/native-sonar-scanner
