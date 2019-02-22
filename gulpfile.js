@@ -12,7 +12,7 @@ function sonar(callback) {
                 'sonar.links.ci': 'https://travis-ci.com/flowscripter/ts-template',
                 'sonar.links.scm': 'https://github.com/flowscripter/ts-template',
                 'sonar.links.issue': 'https://github.com/flowscripter/ts-template/issues',
-                'sonar.javascript.lcov.reportPaths': 'reports/lcov.info',
+                'sonar.typescript.lcov.reportPaths': 'reports/lcov.info',
                 'sonar.eslint.reportPaths': 'reports/eslint.json'
             }
         },
