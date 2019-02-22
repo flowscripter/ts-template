@@ -12,4 +12,8 @@ describe('Foo test', () => {
     it('Foo is instantiable', () => {
         expect(new Foo(new Bar())).toBeInstanceOf(Foo);
     });
+
+    it('Foo dump works', () => {
+        new Foo(new Bar()).dump();
+    });
 });
