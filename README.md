@@ -14,10 +14,6 @@
 1. Update links and references in `package.json`.
 1. Update links and references in `gulpfile.js`
 
-## API
-
-[API documentation](https://flowscripter.github.io/ts-template)
-
 ## Overview
 
 #### Configuration
@@ -91,6 +87,10 @@ such as `tty` and `util` as being externally available via the following Rollup 
         'os'
     ]
 ```
+
+## API
+
+[API documentation](https://flowscripter.github.io/ts-template)
 
 ## Development
 
