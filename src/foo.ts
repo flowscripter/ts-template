@@ -8,7 +8,7 @@ import Bar from 'bar';
 /**
  * Foo for a [[Bar]]
  */
-export default class PluginDescriptor {
+export default class Foo {
 
     public readonly bar: Bar;
 
