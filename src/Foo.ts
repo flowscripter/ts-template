@@ -3,7 +3,7 @@
  */
 import debug from 'debug';
 
-import Bar from 'bar';
+import Bar from 'Bar';
 
 /**
  * Foo for a [[Bar]]
