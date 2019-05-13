@@ -8,10 +8,15 @@ import ts from 'typescript';
 import tempDir from 'temp-dir';
 
 module.exports = {
-    input: 'src/index.ts',
+    input: {
+        index: 'src/index.ts',
+        Foo: 'src/Foo.ts',
+        Bar: 'src/Bar.ts'
+    },
     output: {
-        file: 'dist/index.mjs',
-        format: 'es'
+        dir: 'dist',
+        format: 'es',
+        entryFileNames: '[name].mjs'
     },
     watch: {
         include: 'src/**',

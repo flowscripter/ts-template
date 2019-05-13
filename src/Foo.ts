@@ -3,12 +3,12 @@
  */
 import debug from 'debug';
 
-import Bar from 'bar';
+import Bar from 'Bar';
 
 /**
  * Foo for a [[Bar]]
  */
-export default class PluginDescriptor {
+export default class Foo {
 
     public readonly bar: Bar;
 

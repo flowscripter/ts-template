@@ -1,5 +1,5 @@
 /**
  * @module @flowscripter/ts-template
  */
-export { default as Foo } from 'foo';
-export { default as Bar } from 'bar';
+export { default as Foo } from 'Foo';
+export { default as Bar } from 'Bar';
