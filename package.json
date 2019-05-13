@@ -38,7 +38,7 @@
         "build": "npx rollup -c",
         "watch": "npx rollup -c --watch",
         "test": "npx jest",
-        "lint": "npx eslint ./src/** ./test/**",
+        "lint": "npx eslint ./src/**/*.ts ./test/**/*.ts",
         "docs": "npx typedoc src"
     },
     "devDependencies": {
