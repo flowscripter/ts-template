@@ -26,4 +26,19 @@ export default class Bar {
     public dump(): void {
         this.log('Bar');
     }
+
+
+    /**
+     * Throw an Error when requested
+     *
+     * @param hazError whether or not the invocation should throw an Error
+     *
+     * @throws *Error* if `hazError` was specified as `true`
+     */
+    public iHazError(hazError: boolean): void {
+        this.log('iHazError called');
+        if (hazError) {
+            throw new Error('I haz error');
+        }
+    }
 }
