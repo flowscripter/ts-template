@@ -3,7 +3,8 @@
     "compilerOptions": {
         "outDir": "dist",
         "declarationDir": "dist/types",
-        "baseUrl": "src"
+        "baseUrl": "src",
+        "moduleResolution": "node"
     },
     "include": [
         "src/**/*.ts"
