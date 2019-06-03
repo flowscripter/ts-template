@@ -39,7 +39,7 @@
         "watch": "npx rollup -c --watch",
         "test": "npx jest",
         "lint": "npx eslint ./src/**/*.ts ./test/**/*.ts",
-        "docs": "npx typedoc src"
+        "docs": "npx typedoc --moduleResolution node src"
     },
     "devDependencies": {
         "@commitlint/cli": "8.0.0",

@@ -14,7 +14,6 @@ export default class Foo {
 
     private readonly log: debug.Debugger;
 
-
     /**
      * Constructor
      *
@@ -24,7 +23,6 @@ export default class Foo {
         this.log = debug('Foo');
         this.bar = bar;
     }
-
 
     /**
      * Dump information to log
