@@ -27,7 +27,7 @@
     "main": "dist/index.mjs",
     "module": "dist/index.mjs",
     "files": [
-        "dist"
+        "dist/**/*"
     ],
     "typings": "dist/types/index.d.ts",
     "engines": {
