@@ -48,9 +48,8 @@ Because of this the modules are configured so that:
  
 * no transpiling is performed (apart from TypeScript to ES2015 JavaScript)
 * `package.json` specifies:
-    * `"main": "dist/index.mjs"` (as per: https://nodejs.org/api/esm.html#esm_enabling and
-https://github.com/nodejs/node-eps/blob/master/002-es-modules.md#44-shipping-both-esm-and-cjs)
-    * `"module": "dist/index.mjs"` (as per: https://github.com/rollup/rollup/wiki/pkg.module)
+    * `"main": "dist/index.js`
+    * `"type": "module"`
     * `"node": ">=10.15.1"` so that the `--experimental-modules` flag can be used
 
 #### Legacy Module Consumption

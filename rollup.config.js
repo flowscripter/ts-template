@@ -16,7 +16,7 @@ module.exports = {
     output: {
         dir: 'dist',
         format: 'es',
-        entryFileNames: '[name].mjs'
+        sourcemap: true
     },
     watch: {
         include: 'src/**',
@@ -35,6 +35,6 @@ module.exports = {
         }),
         commonjs(),
         resolve(),
-        cleanup({extensions: ['ts']})
+        cleanup({ extensions: ['ts'] })
     ]
 };
