@@ -25,6 +25,7 @@
         "access": "public"
     },
     "main": "dist/index.js",
+    "browser": "dist/browser.js",
     "type": "module",
     "files": [
         "dist/**/*"
@@ -45,6 +46,7 @@
         "@commitlint/cli": "8.1.0",
         "@commitlint/config-conventional": "8.1.0",
         "@flowscripter/eslint-config": "1.2.12",
+        "@flowscripter/renovate-config": "1.0.2",
         "@flowscripter/tsconfig": "1.2.0",
         "@types/debug": "4.1.4",
         "@types/jest": "24.0.15",
@@ -62,11 +64,12 @@
         "rollup-plugin-commonjs": "10.0.1",
         "rollup-plugin-eslint": "7.0.0",
         "rollup-plugin-json": "4.0.0",
+        "rollup-plugin-node-builtins": "2.1.2",
         "rollup-plugin-node-resolve": "5.2.0",
         "rollup-plugin-peer-deps-external": "2.2.0",
         "rollup-plugin-typescript2": "0.22.1",
         "rollup-watch": "4.3.1",
-        "semantic-release": "15.13.18",
+        "semantic-release": "15.13.19",
         "sonarqube-scanner": "2.5.0",
         "temp-dir": "2.0.0",
         "ts-jest": "24.0.2",

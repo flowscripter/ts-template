@@ -16,6 +16,15 @@
 
 ## Overview
 
+#### Entry Points for Node and Browser
+
+The build config in `rollup.config.js` produces two bundled entry points:
+ 
+* `index.js` is intended for consumption in node and exposed via the `main` property in `package.json`.
+* `browser.js` - is intended for consumption in a browser and exposed via the `browser` property in `package.json`.
+
+This ensures that dependencies for node specific modules can be shimmed via [rollup-plugin-node-builtins](https://github.com/calvinmetcalf/rollup-plugin-node-builtins)  
+
 #### Configuration
 Explanation of project configuration files:
 
@@ -29,7 +38,7 @@ Explanation of project configuration files:
 * `jest.config.js` - Configures the unit testing framework [Jest](https://jestjs.io) for TypeScript and coverage reports. 
 * `package.js` - Defines development cycle scripts and configures publication of ES2015 modules. 
 * `release.config.js` - Configuration for automated semantic version releasing using [semantic-release](https://semantic-release.gitbook.io/semantic-release/)
-* `renovate.json` - Ensures automated dependency upgrade via [Renovate](https://renovatebot.com)
+* `renovate.json` - Ensures automated dependency upgrade via [Renovate](https://renovatebot.com) using a config derived from [@flowscripter/renovate-config](https://www.npmjs.com/package/@flowscripter/renovate-config)
 * `rollup.config.js` - Defines the TypeScript and ES2015 module build pipeline for [Rollup](https://rollupjs.org/guide/en)
 * `tsconfig.json` - [TypeScript](https://www.typescriptlang.org) configuration for the project derived from [@flowscripter/tsconfig](https://www.npmjs.com/package/@flowscripter/tsconfig)
 * `typedoc.json` - Configuration of [TypeDoc](https://typedoc.org) API document generation
