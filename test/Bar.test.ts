@@ -5,25 +5,25 @@ import { Bar } from 'index';
  */
 describe('Bar test', () => {
 
-    it('works if true is truthy', () => {
+    test('works if true is truthy', () => {
         expect(true).toBeTruthy();
     });
 
-    it('Bar is instantiable', () => {
+    test('Bar is instantiable', () => {
         expect(new Bar()).toBeInstanceOf(Bar);
     });
 
-    it('Bar dump works', () => {
+    test('Bar dump works', () => {
         new Bar().dump();
     });
 
-    it('iHazError throws', () => {
+    test('iHazError throws', () => {
         expect(() => {
             new Bar().iHazError(true);
         }).toThrow();
     });
 
-    it('iHazError does not throw', () => {
+    test('iHazError does not throw', () => {
         new Bar().iHazError(false);
     });
 });

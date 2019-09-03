@@ -5,15 +5,15 @@ import { Foo, Bar } from 'index';
  */
 describe('Foo test', () => {
 
-    it('works if true is truthy', () => {
+    test('works if true is truthy', () => {
         expect(true).toBeTruthy();
     });
 
-    it('Foo is instantiable', () => {
+    test('Foo is instantiable', () => {
         expect(new Foo(new Bar())).toBeInstanceOf(Foo);
     });
 
-    it('Foo dump works', () => {
+    test('Foo dump works', () => {
         new Foo(new Bar()).dump();
     });
 });
