@@ -12,6 +12,7 @@ notifications:
 stages:
 - name: test
 - name: analysis
+- name: build
 - name: release
   if: branch = master AND type != pull_request
 jobs:
@@ -29,6 +30,9 @@ jobs:
         organization: flowscripter
         token:
           secure: "$SONAR_TOKEN"
+  - stage: build
+    script: npm run build && npm run docs
+    name: build
   - stage: release
     script: npm run build && npm run docs && touch docs/.nojekyll
     deploy:
