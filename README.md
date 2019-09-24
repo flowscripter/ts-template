@@ -122,4 +122,4 @@ Docs: `npm run docs`
 
 ## License
 
-MIT © Vectronic
+MIT © Flowscripter
