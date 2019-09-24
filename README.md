@@ -59,7 +59,7 @@ Because of this the modules are configured so that:
 * `package.json` specifies:
     * `"main": "dist/index.js`
     * `"type": "module"`
-    * `"node": ">=10.15.1"` so that the `--experimental-modules` flag can be used
+    * `"node": ">=12"` so that the `--experimental-modules` flag can be used
 
 #### Legacy Module Consumption
  
