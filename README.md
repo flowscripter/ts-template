@@ -20,7 +20,7 @@
 
 The build config in `rollup.config.js` produces two bundled entry points:
  
-* `index.js` is intended for consumption in node and exposed via the `main` property in `package.json`.
+* `node.js` is intended for consumption in node and exposed via the `main` property in `package.json`.
 * `browser.js` - is intended for consumption in a browser and exposed via the `browser` property in `package.json`.
 
 This ensures that dependencies for node specific modules can be shimmed via [rollup-plugin-node-builtins](https://github.com/calvinmetcalf/rollup-plugin-node-builtins)  
@@ -59,7 +59,7 @@ Because of this the modules are configured so that:
 * `package.json` specifies:
     * `"main": "dist/index.js`
     * `"type": "module"`
-    * `"node": ">=10.15.1"` so that the `--experimental-modules` flag can be used
+    * `"node": ">=12"` so that the `--experimental-modules` flag can be used
 
 #### Legacy Module Consumption
  
@@ -122,4 +122,4 @@ Docs: `npm run docs`
 
 ## License
 
-MIT © Vectronic
+MIT © Flowscripter
