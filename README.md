@@ -20,7 +20,7 @@
 
 The build config in `rollup.config.js` produces two bundled entry points:
  
-* `index.js` is intended for consumption in node and exposed via the `main` property in `package.json`.
+* `node.js` is intended for consumption in node and exposed via the `main` property in `package.json`.
 * `browser.js` - is intended for consumption in a browser and exposed via the `browser` property in `package.json`.
 
 This ensures that dependencies for node specific modules can be shimmed via [rollup-plugin-node-builtins](https://github.com/calvinmetcalf/rollup-plugin-node-builtins)  

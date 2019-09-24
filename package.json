@@ -24,7 +24,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "main": "dist/index.js",
+    "main": "dist/node.js",
     "browser": "dist/browser.js",
     "type": "module",
     "files": [
