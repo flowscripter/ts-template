@@ -71,7 +71,7 @@
         "sonarqube-scanner": "2.5.0",
         "temp-dir": "2.0.0",
         "ts-jest": "24.3.0",
-        "typedoc": "0.16.4",
+        "typedoc": "0.16.5",
         "typedoc-plugin-external-module-name": "2.2.1",
         "typescript": "3.7.4"
     },
