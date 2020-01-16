@@ -73,7 +73,7 @@
         "ts-jest": "24.3.0",
         "typedoc": "0.16.6",
         "typedoc-plugin-external-module-name": "2.2.1",
-        "typescript": "3.7.4"
+        "typescript": "3.7.5"
     },
     "peerDependencies": {
         "debug": "4.1.1"
