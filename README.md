@@ -59,8 +59,7 @@ Because of this the modules are configured so that:
 * `package.json` specifies:
     * `"main": "dist/index.js`
     * `"type": "module"`
-    * `"node": ">=12.11.1"` so that the `--experimental-modules` flag can be used and dynamic import is supported AND
-    Jest still works until https://github.com/facebook/jest/issues/9430 is fixed
+    * `"node": ">=14.4.0"`
 
 #### Legacy Module Consumption
 
