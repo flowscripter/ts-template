@@ -33,7 +33,7 @@ Explanation of project configuration files:
 * `.gitignore` - Specifies files for git to [ignore](https://git-scm.com/docs/gitignore)
 * `.huskyrc.json` - Provides git hooks using [Husky](https://github.com/typicode/husky) to enforce semantic commit messages, linting and unit testing.
 * `.travis.yml` - Defines the [Travis](https://travis-ci.com) build pipeline.
-* `commitlint.config.cjs` - Configures [commitlint](https://conventional-changelog.github.io/commitlint) to ensure commit messages can be used to drive automated [Semantic Version](https://semver.org) releases.
+* `.commitlintrc.json` - Configures [commitlint](https://conventional-changelog.github.io/commitlint) to ensure commit messages can be used to drive automated [Semantic Version](https://semver.org) releases.
 * `gulpfile.cjs` - Invoked during the Travis build to run [Sonarqube-scanner](https://github.com/bellingard/sonar-scanner-npm)
 * `jest.config.json` - Configures the unit testing framework [Jest](https://jestjs.io) for TypeScript and coverage reports.
 * `package.json` - Defines development cycle scripts and configures publication of ES2015 modules.
