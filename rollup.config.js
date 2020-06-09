@@ -1,7 +1,6 @@
 import builtins from 'rollup-plugin-node-builtins';
 import cleanup from 'rollup-plugin-cleanup';
 import commonjs from 'rollup-plugin-commonjs';
-import { eslint } from 'rollup-plugin-eslint';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import resolve from 'rollup-plugin-node-resolve';
 import typescript from 'rollup-plugin-typescript2';
@@ -28,11 +27,6 @@ module.exports = [
         ],
         plugins: [
             peerDepsExternal(),
-            eslint({
-                include: [
-                    'src/**/*.ts'
-                ]
-            }),
             typescript({
                 typescript: ts,
                 useTsconfigDeclarationDir: true,
@@ -59,11 +53,6 @@ module.exports = [
         },
         plugins: [
             peerDepsExternal(),
-            eslint({
-                include: [
-                    'src/**/*.ts'
-                ]
-            }),
             typescript({
                 typescript: ts,
                 useTsconfigDeclarationDir: true,
