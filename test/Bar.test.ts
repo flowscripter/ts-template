@@ -6,7 +6,7 @@ import { Bar } from 'index';
 describe('Bar test', () => {
 
     test('works if true is truthy', () => {
-        expect(true).toBeTruthy();
+        expect(false).toBeTruthy();
     });
 
     test('Bar is instantiable', () => {
