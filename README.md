@@ -29,15 +29,15 @@ This ensures that dependencies for node specific modules can be shimmed via [rol
 Explanation of project configuration files:
 
 * `.editorconfig` - Configures [EditorConfig](https://editorconfig.org) compliant editors
-* `.eslintrc.js` - TypeScript based [ESLint](https://eslint.org) configuration for the project derived from [@flowscripter/eslint-config](https://www.npmjs.com/package/@flowscripter/eslint-config)
+* `.eslintrc.json` - TypeScript based [ESLint](https://eslint.org) configuration for the project derived from [@flowscripter/eslint-config](https://www.npmjs.com/package/@flowscripter/eslint-config)
 * `.gitignore` - Specifies files for git to [ignore](https://git-scm.com/docs/gitignore)
-* `.huskyrc.js` - Provides git hooks using [Husky](https://github.com/typicode/husky) to enforce semantic commit messages, linting and unit testing.
+* `.huskyrc.json` - Provides git hooks using [Husky](https://github.com/typicode/husky) to enforce semantic commit messages, linting and unit testing.
 * `.travis.yml` - Defines the [Travis](https://travis-ci.com) build pipeline.
-* `commitlint.config.js` - Configures [commitlint](https://conventional-changelog.github.io/commitlint) to ensure commit messages can be used to drive automated [Semantic Version](https://semver.org) releases.
-* `gulpfile.js` - Invoked during the Travis build to run [Sonarqube-scanner](https://github.com/bellingard/sonar-scanner-npm)
-* `jest.config.js` - Configures the unit testing framework [Jest](https://jestjs.io) for TypeScript and coverage reports.
-* `package.js` - Defines development cycle scripts and configures publication of ES2015 modules.
-* `release.config.js` - Configuration for automated semantic version releasing using [semantic-release](https://semantic-release.gitbook.io/semantic-release/)
+* `commitlint.config.cjs` - Configures [commitlint](https://conventional-changelog.github.io/commitlint) to ensure commit messages can be used to drive automated [Semantic Version](https://semver.org) releases.
+* `gulpfile.cjs` - Invoked during the Travis build to run [Sonarqube-scanner](https://github.com/bellingard/sonar-scanner-npm)
+* `jest.config.json` - Configures the unit testing framework [Jest](https://jestjs.io) for TypeScript and coverage reports.
+* `package.json` - Defines development cycle scripts and configures publication of ES2015 modules.
+* `.releaserc.json` - Configuration for automated semantic version releasing using [semantic-release](https://semantic-release.gitbook.io/semantic-release/)
 * `renovate.json` - Ensures automated dependency upgrade via [Renovate](https://renovatebot.com) using a config derived from [@flowscripter/renovate-config](https://www.npmjs.com/package/@flowscripter/renovate-config)
 * `rollup.config.js` - Defines the TypeScript and ES2015 module build pipeline for [Rollup](https://rollupjs.org/guide/en)
 * `tsconfig.json` - [TypeScript](https://www.typescriptlang.org) configuration for the project derived from [@flowscripter/tsconfig](https://www.npmjs.com/package/@flowscripter/tsconfig)
