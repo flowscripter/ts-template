@@ -3,7 +3,6 @@
  */
 import debug from 'debug';
 
-
 /**
  * Bar
  */

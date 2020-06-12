@@ -12,7 +12,7 @@
 1. Export and expand a zip of this repository.
 1. Update links and references in `README.md`.
 1. Update links and references in `package.json`.
-1. Update links and references in `gulpfile.js`
+1. Update links and references in `gulpfile.cjs`
 
 ## Overview
 
