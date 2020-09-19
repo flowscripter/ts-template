@@ -75,7 +75,7 @@
         "typescript": "4.0.3"
     },
     "peerDependencies": {
-        "debug": "4.1.1"
+        "debug": "4.2.0"
     },
     "dependencies": {}
 }
